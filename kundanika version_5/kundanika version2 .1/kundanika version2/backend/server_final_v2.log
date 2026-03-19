@@ -1,0 +1,1002 @@
+nohup: ignoring input
+/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py:16: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [10077]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+Loaded CORS origins: ['http://localhost:3000', 'https://localhost:3000', 'http://192.168.29.85:3000', 'http://172.18.16.1:3000', 'https://172.18.16.1:3000', 'https://your-frontend-ngrok-url.ngrok-free.app', 'http://192.168.29.85:3000', 'https://internpro.qzz.io', 'http://internpro.qzz.io']
+INFO:     127.0.0.1:42540 - "HEAD /api/auth/login HTTP/1.1" 405 Method Not Allowed
+INFO:     127.0.0.1:54214 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54216 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:54220 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "OPTIONS /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "OPTIONS /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "OPTIONS /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "OPTIONS /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "OPTIONS /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "OPTIONS /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "OPTIONS /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "OPTIONS /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "OPTIONS /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "OPTIONS /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "OPTIONS /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "OPTIONS /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "OPTIONS /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54260 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54260 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54274 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54250 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54260 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54220 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54224 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54238 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33970 - "OPTIONS /api/chat HTTP/1.1" 200 OK
+Gemini Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:33982 - "POST /api/chat HTTP/1.1" 200 OK
+Gemini Error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+INFO:     127.0.0.1:51586 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "OPTIONS /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60166 - "OPTIONS /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60174 - "OPTIONS /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60178 - "OPTIONS /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60188 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60166 - "OPTIONS /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "OPTIONS /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60178 - "OPTIONS /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60156 - "GET /api/projects HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 1064, in get_projects
+    async def create_project(project: ProjectBase, current_user: Dict = Depends(get_current_user)):
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:60172 - "GET /api/students/profile HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 406, in get_student_profile
+    profile_data = await db.student_profiles.find_one({"user_id": current_user['user_id']}, {"_id": 0})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/collection.py", line 1755, in find_one
+    for result in cursor.limit(-1):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1289, in __next__
+    return self.next()
+           ^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1265, in next
+    if len(self._data) or self._refresh():
+                          ^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:60188 - "GET /api/applications HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 745, in get_applications
+    internship = await db.internships.find_one({"id": application.internship_id})
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:60174 - "GET /api/internships HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 647, in get_internships
+    await create_notification(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:60166 - "GET /api/notifications HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 970, in get_notifications
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:60178 - "GET /api/certificates HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 959, in get_certificates
+    "issued_at": cert_data.issue_date,
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:41654 - "GET /api/students/progress HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 423, in get_student_progress
+    results = await db.quiz_results.find({"user_id": current_user['user_id']}).to_list(length=100)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:41660 - "GET /api/quizzes HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 543, in get_quizzes
+    System: You are InternPro's Career Coach AI. Helping student: {current_user.get('name', 'Student')}.
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:41640 - "GET /api/badges HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 416, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1160, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/applications.py", line 107, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 95, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/cors.py", line 153, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/fastapi/routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py", line 1082, in get_badges
+    @api_router.get("/projects", response_model=List[Project])
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/motor/core.py", line 1696, in _to_list
+    result = get_more_result.result()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1213, in _refresh
+    self._send_message(q)
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/cursor.py", line 1108, in _send_message
+    response = client._run_operation(
+               ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1938, in _run_operation
+    return self._retryable_read(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2048, in _retryable_read
+    return self._retry_internal(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/_csot.py", line 125, in csot_wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2014, in _retry_internal
+    ).run()
+      ^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2763, in run
+    return self._read() if self._is_read else self._write()
+           ^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2908, in _read
+    self._server = self._get_server()
+                   ^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 2856, in _get_server
+    return self._client._select_server(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/mongo_client.py", line 1833, in _select_server
+    server = topology.select_server(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 428, in select_server
+    server = self._select_server(
+             ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 402, in _select_server
+    servers = self.select_servers(
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 298, in select_servers
+    server_descriptions = self._select_servers_loop(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/venv/lib/python3.12/site-packages/pymongo/synchronous/topology.py", line 359, in _select_servers_loop
+    raise ServerSelectionTimeoutError(
+pymongo.errors.ServerSelectionTimeoutError: SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 69bb6fdf8edb2ef7a4636bc3, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [10077]
