@@ -92,17 +92,17 @@ export default function StudentDashboard({ user, logout }) {
       pData.email = pData.email || uData.email || '';
       pData.phone = pData.phone || uData.phone || '';
       setProfile(pData);
-      setInternships(internshipsRes.data);
-      if (internshipsRes.data && internshipsRes.data.length > 0) {
+      setInternships(Array.isArray(internshipsRes.data) ? internshipsRes.data : []);
+      if (Array.isArray(internshipsRes.data) && internshipsRes.data.length > 0) {
         setOpportunities(internshipsRes.data);
       }
-      setApplications(applicationsRes.data);
-      setCertificates(certificatesRes.data);
-      setNotifications(notificationsRes.data);
-      setProjects(projectsRes.data);
-      setBadges(badgesRes.data);
-      setQuizzes(quizzesRes.data);
-      setProgressData(progressRes.data);
+      setApplications(Array.isArray(applicationsRes.data) ? applicationsRes.data : []);
+      setCertificates(Array.isArray(certificatesRes.data) ? certificatesRes.data : []);
+      setNotifications(Array.isArray(notificationsRes.data) ? notificationsRes.data : []);
+      setProjects(Array.isArray(projectsRes.data) ? projectsRes.data : []);
+      setBadges(Array.isArray(badgesRes.data) ? badgesRes.data : []);
+      setQuizzes(Array.isArray(quizzesRes.data) ? quizzesRes.data : []);
+      setProgressData(progressRes.data || { radar_data: [], scores: {}, total_points: 0, quizzes_completed: 0 });
     } catch (error) {
       toast.error("Failed to load dashboard data.");
       console.error("Error fetching dashboard data:", error);
@@ -337,7 +337,7 @@ export default function StudentDashboard({ user, logout }) {
               </Button>
               <div className="flex items-center space-x-2">
                 <User className="h-5 w-5 text-gray-600" />
-                <span className="text-sm font-medium">{user.name}</span>
+                <span className="text-sm font-medium">{user?.name || 'User'}</span>
               </div>
               <Button variant="ghost" size="icon" onClick={logout} data-testid="logout-btn">
                 <LogOut className="h-5 w-5" />
@@ -368,7 +368,7 @@ export default function StudentDashboard({ user, logout }) {
                 </div>
                 <div className="flex overflow-x-auto pb-4 space-x-4 scrollbar-hide">
                   {AVAILABLE_BADGES.map((badgeConfig) => {
-                    const earnedBadge = badges.find(b => b.key === badgeConfig.key);
+                    const earnedBadge = (badges || []).find(b => b.key === badgeConfig.key);
                     const isEarned = !!earnedBadge;
                     const IconComponent = isEarned ? badgeConfig.icon : Lock;
                     
@@ -559,7 +559,7 @@ export default function StudentDashboard({ user, logout }) {
                     <div className="flex items-center">
                       <Briefcase className="h-10 w-10 text-blue-500" />
                       <div className="ml-4">
-                        <p className="text-2xl font-bold">{applications.length}</p>
+                        <p className="text-2xl font-bold">{(applications || []).length}</p>
                         <p className="text-gray-500">Applications</p>
                       </div>
                     </div>
@@ -570,7 +570,7 @@ export default function StudentDashboard({ user, logout }) {
                     <div className="flex items-center">
                       <Award className="h-10 w-10 text-yellow-500" />
                       <div className="ml-4">
-                        <p className="text-2xl font-bold">{certificates.length}</p>
+                        <p className="text-2xl font-bold">{(certificates || []).length}</p>
                         <p className="text-gray-500">Certificates</p>
                       </div>
                     </div>
@@ -581,7 +581,7 @@ export default function StudentDashboard({ user, logout }) {
                     <div className="flex items-center">
                       <Star className="h-10 w-10 text-green-500" />
                       <div className="ml-4">
-                        <p className="text-2xl font-bold">{badges.length}</p>
+                        <p className="text-2xl font-bold">{(badges || []).length}</p>
                         <p className="text-gray-500">Achievements</p>
                       </div>
                     </div>
@@ -593,7 +593,7 @@ export default function StudentDashboard({ user, logout }) {
               <section>
                 <h2 className="text-2xl font-bold mb-4" style={{ fontFamily: 'Space Grotesk' }}>Recent Applications</h2>
                 <div className="space-y-4">
-                  {applications.slice(0, 3).map((application) => (
+                  {(applications || []).slice(0, 3).map((application) => (
                     <Card key={application.id} className="card-hover">
                       <CardContent className="p-4">
                         <div className="flex justify-between items-start">

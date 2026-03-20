@@ -9,6 +9,7 @@ import PlacementStaffDashboard from '@/pages/PlacementStaffDashboard';
 import FacultyDashboard from '@/pages/FacultyDashboard';
 import EmployerDashboard from '@/pages/EmployerDashboard';
 import { Toaster } from '@/components/ui/sonner';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -62,19 +63,21 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={user ? getDashboard() : <LandingPage />} />
-          <Route path="/login" element={user ? <Navigate to="/" /> : <Login setUser={setUser} />} />
-          <Route path="/register" element={user ? <Navigate to="/" /> : <Register setUser={setUser} />} />
-          <Route
-            path="/dashboard"
-            element={
-              <ProtectedRoute>
-                {getDashboard()}
-              </ProtectedRoute>
-            }
-          />
-        </Routes>
+        <ErrorBoundary>
+          <Routes>
+            <Route path="/" element={user ? getDashboard() : <LandingPage />} />
+            <Route path="/login" element={user ? <Navigate to="/" /> : <Login setUser={setUser} />} />
+            <Route path="/register" element={user ? <Navigate to="/" /> : <Register setUser={setUser} />} />
+            <Route
+              path="/dashboard"
+              element={
+                <ProtectedRoute>
+                  {getDashboard()}
+                </ProtectedRoute>
+              }
+            />
+          </Routes>
+        </ErrorBoundary>
       </BrowserRouter>
       <Toaster position="top-right" />
     </div>

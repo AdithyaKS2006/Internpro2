@@ -14,13 +14,19 @@ import jwt
 from passlib.context import CryptContext
 import base64
 import google.generativeai as genai
+import certifi
+ca = certifi.where()
+# try:
+#     import google.genai as genai
+# except ImportError:
+#     import google.generativeai as genai
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
 # MongoDB connection
 mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
+client = AsyncIOMotorClient(mongo_url, tlsCAFile=ca, serverSelectionTimeoutMS=5000)
 db = client[os.environ['DB_NAME']]
 
 # Security
@@ -37,11 +43,11 @@ print(f"Loaded CORS origins: {os.environ.get('CORS_ORIGINS', '*').split(',')}")
 
 app = FastAPI()
 
-# Task 17: Fixed CORS Configuration
+# Task 17: Fixed CORS Configuration - set to * for development to avoid issues
 app.add_middleware(
     CORSMiddleware,
     allow_credentials=True,
-    allow_origins=[origin.strip() for origin in os.environ.get('CORS_ORIGINS', '*').split(',') if origin.strip()],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -51,6 +57,16 @@ api_router = APIRouter(prefix="/api")
 @api_router.get("/test-route")
 async def test_route():
     return {"message": "Test route working"}
+
+@api_router.get("/health")
+async def health_check():
+    """Diagnostic endpoint to check backend and DB status"""
+    try:
+        # Simple ping to verify connection
+        await client.admin.command('ping')
+        return {"status": "ok", "database": "connected", "mode": "development"}
+    except Exception as e:
+        return {"status": "unhealthy", "database": "disconnected", "error": str(e)}
 
 # ===== MODELS =====
 
@@ -356,7 +372,13 @@ async def register(user_data: UserRegister):
         "created_at": datetime.now(timezone.utc).isoformat()
     }
     
-    await db.users.insert_one(user_doc)
+    print(f"DEBUG: Registering user {user_data.email}")
+    try:
+        await db.users.insert_one(user_doc)
+        print(f"DEBUG: User {user_data.email} inserted into DB")
+    except Exception as e:
+        print(f"DEBUG: Error inserting user {user_data.email}: {e}")
+        raise HTTPException(status_code=500, detail=f"Database error during registration: {str(e)}")
     
     # Create student profile if role is student
     if user_data.role == "student":
@@ -385,23 +407,36 @@ async def register(user_data: UserRegister):
 
 @api_router.post("/auth/login")
 async def login(credentials: UserLogin):
-    user = await db.users.find_one({"email": credentials.email})
-    if not user or not verify_password(credentials.password, user['password_hash']):
-        raise HTTPException(status_code=401, detail="Invalid credentials")
-    
-    token = create_token(user['id'], user['email'], user['role'])
-    
-    return {
-        "token": token,
-        "user": {
-            "id": user['id'],
-            "email": user['email'],
-            "name": user['name'],
-            "role": user['role'],
-            "department": user.get('department'),
-            "organization": user.get('organization')
+    print(f"DEBUG: Login attempt for {credentials.email}")
+    try:
+        user = await db.users.find_one({"email": credentials.email})
+        if not user:
+            print(f"DEBUG: Login failed - user {credentials.email} not found")
+            raise HTTPException(status_code=401, detail="Invalid credentials")
+            
+        if not verify_password(credentials.password, user.get('password_hash', '')):
+            print(f"DEBUG: Login failed - incorrect password for {credentials.email}")
+            raise HTTPException(status_code=401, detail="Invalid credentials")
+        
+        token = create_token(user['id'], user['email'], user['role'])
+        print(f"DEBUG: Login successful for {credentials.email}")
+        
+        return {
+            "token": token,
+            "user": {
+                "id": user['id'],
+                "email": user['email'],
+                "name": user['name'],
+                "role": user['role'],
+                "department": user.get('department'),
+                "organization": user.get('organization')
+            }
         }
-    }
+    except Exception as e:
+        print(f"DEBUG: Login exception for {credentials.email}: {e}")
+        if isinstance(e, HTTPException):
+            raise e
+        raise HTTPException(status_code=500, detail=f"Internal server error during login: {str(e)}")
 
 @api_router.get("/auth/me")
 async def get_me(current_user: Dict = Depends(get_current_user)):

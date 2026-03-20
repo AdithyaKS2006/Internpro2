@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
-import { Trophy, Star, Target, CheckCircle2, AlertCircle } from 'lucide-react';
+import { Trophy, Star, Target, CheckCircle2 } from 'lucide-react';
 
 export default function QuizModal({ 
   isOpen, 

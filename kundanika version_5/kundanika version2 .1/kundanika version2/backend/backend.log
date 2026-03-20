@@ -1,0 +1,119 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [9329] using WatchFiles
+/home/adithya-k-s/PROJECTS/internpro_in_ubuntu_without_emergent_with_google_api/kundanika version_5/kundanika version2 .1/kundanika version2/backend/server.py:16: FutureWarning: 
+
+All support for the `google.generativeai` package has ended. It will no longer be receiving 
+updates or bug fixes. Please switch to the `google.genai` package as soon as possible.
+See README for more details:
+
+https://github.com/google-gemini/deprecated-generative-ai-python/blob/main/README.md
+
+  import google.generativeai as genai
+INFO:     Started server process [9331]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+Loaded CORS origins: ['http://localhost:3000', 'https://localhost:3000', 'http://192.168.29.85:3000', 'http://172.18.16.1:3000', 'https://172.18.16.1:3000', 'https://your-frontend-ngrok-url.ngrok-free.app', 'http://192.168.29.85:3000', 'https://internpro.qzz.io', 'http://internpro.qzz.io']
+INFO:     127.0.0.1:43004 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50608 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+DEBUG: Login attempt for student@example.com
+DEBUG: Login exception for student@example.com: SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69bd62e0035f5140501ee53f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:50620 - "POST /api/auth/login HTTP/1.1" 500 Internal Server Error
+DEBUG: Login attempt for students@example.com
+DEBUG: Login exception for students@example.com: SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69bd62e0035f5140501ee53f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:33756 - "POST /api/auth/login HTTP/1.1" 500 Internal Server Error
+DEBUG: Login attempt for students@example.com
+DEBUG: Login exception for students@example.com: SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms),SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 5.0s, Topology Description: <TopologyDescription id: 69bd62e0035f5140501ee53f, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-it87n20-shard-00-00.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-00.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-01.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-01.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-it87n20-shard-00-02.zwf7hfl.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-it87n20-shard-00-02.zwf7hfl.mongodb.net:27017: [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000) (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+INFO:     127.0.0.1:48290 - "POST /api/auth/login HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:42336 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55956 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33130 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50070 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50076 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60592 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51340 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36084 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "OPTIONS /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "OPTIONS /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42252 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42256 - "OPTIONS /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "OPTIONS /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42262 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "OPTIONS /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "OPTIONS /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42252 - "OPTIONS /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "OPTIONS /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42262 - "OPTIONS /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "OPTIONS /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "OPTIONS /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42252 - "OPTIONS /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "OPTIONS /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42262 - "OPTIONS /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "OPTIONS /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42256 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42252 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42262 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42250 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42252 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42262 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42256 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42258 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42248 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42256 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54258 - "OPTIONS /api/auth/login HTTP/1.1" 200 OK
+DEBUG: Login attempt for students@example.com
+DEBUG: Login failed - user students@example.com not found
+DEBUG: Login exception for students@example.com: 401: Invalid credentials
+INFO:     127.0.0.1:54274 - "POST /api/auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:45446 - "OPTIONS /api/auth/register HTTP/1.1" 200 OK
+DEBUG: Registering user st@example.com
+DEBUG: User st@example.com inserted into DB
+INFO:     127.0.0.1:45448 - "POST /api/auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45460 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45456 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45446 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45476 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45460 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45448 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45456 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45446 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45448 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45456 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45460 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45488 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45448 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45446 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45476 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45476 - "GET /api/students/progress HTTP/1.1" 200 OK
+DEBUG: Login attempt for st@example.com
+DEBUG: Login successful for st@example.com
+INFO:     127.0.0.1:37924 - "POST /api/auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37936 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37928 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37944 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37954 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37938 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37924 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37936 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37928 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37954 - "GET /api/applications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37938 - "GET /api/internships HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37924 - "GET /api/certificates HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37936 - "GET /api/notifications HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37928 - "GET /api/projects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37938 - "GET /api/badges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37924 - "GET /api/quizzes HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37954 - "GET /api/students/profile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37944 - "GET /api/students/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37944 - "GET /api/students/progress HTTP/1.1" 200 OK
